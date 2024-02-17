@@ -7,10 +7,10 @@ public class Auto {
 	String marca;
 	Motor motor;
 	int registro;
+	int acientos;
 	static int cantidadCreados;
   	
 	 	int cantidadAsientos() { 
-		int acientos;
 		for(int i=0;i< asientos.length;i++) {
 			if (asientos[i]!= null) {	
 				acientos+=1;
